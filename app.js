@@ -45,5 +45,13 @@ function editfun(e){
 }
 
 
+document.getElementById('inp2').addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+        foo1();
+    }
+});
+
+
+
 
 
